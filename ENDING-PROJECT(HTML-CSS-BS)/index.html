@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+     <!-- Navbar blacksection -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="line"></span>
+                <i class="fas fa-concierge-bell"></i>
+                <span class="ms-2">FRESHEAT</span>
+                <span class="line"></span>
+            </a>
+
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <!--<li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Home</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Home Version 1</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Home Version 2</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Home Version 3</a></li>
+                        </ul>
+                      </li>
+
+                    <!--<li class="nav-item"><a class="nav-link text-white" href="#">Pages</a></li>-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Pages</b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">About Us 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Chef</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Chef Details 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Chef Details 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Service Details</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Reservation</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Faq</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                      </ul>
+                    </li>
+                    <!--<li class="nav-item"><a class="nav-link text-white" href="#">Food Menu</a></li>-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Food Menu</b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Food Menu 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Food Menu  2</a></li>
+                      </ul>
+                    </li>
+                   <!-- <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>-->
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <b>Blog</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Blog </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Blog Standards</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Blog With Sidebar</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                    </ul>
+                  </li>
+                    <!--<li class="nav-item"><a class="nav-link text-white" href="#">Shop</a></li>-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Shop</b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Shop</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Shop List</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Shop List Right Sidebar</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Chechout</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                      
+                      </ul>
+                    </li>
+                    <!--<li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Contact</b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Contact Us 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Contact Us 2</a></li>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search & Order Button -->
+            <div class="d-flex align-items-center">
+                <i class="fas fa-search text-white me-3"></i>
+                <button class="order-btn">
+                    <b>ORDER NOW</b> <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+     <!-- carousel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Carousel Item 1 -->
+    <div class="carousel-item active position-relative">
+      <img src="carousel1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption-custom">
+        <button class="order-btn">
+          <b>ORDER NOW</b>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel Item 2 -->
+    <div class="carousel-item position-relative">
+      <img src="carousel2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption-custom">
+        <button class="order-btn">
+          <b>ORDER NOW</b>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel Item 3 -->
+    <div class="carousel-item position-relative">
+      <img src="carousel3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption-custom">
+        <button class="order-btn">
+          <b>ORDER NOW</b>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- POPULAR DISHES -->
+
+<div class="container text-center mt-5">
+  <h6 style="color: #ff6600; font-weight: bold;">
+      <i class="fas fa-utensils"></i> POPULAR DISHES
+  </h6>
+  <h2 style="font-weight: bold;">Best Selling Dishes</h2>
+
+  <div class="row mt-4 justify-content-center">
+
+      <!-- Chicken Fried Rice -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="food-card">
+              <div class="rotating-border"></div>
+              <img src="https://fresheat-react.vercel.app/assets/img/food-items/item1_1.png" 
+                  class="img-fluid food-image" 
+                  alt="Chicken Fried Rice">
+              <h5>Chicken Fried Rice</h5>
+              <p>The Registration Fee</p>
+              <p class="food-price text-danger fw-bold">$100.99</p>
+          </div>
+      </div>
+
+      <!-- Chicken Leg Piece -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="food-card">
+              <div class="rotating-border"></div>
+              <img src="https://fresheat-react.vercel.app/assets/img/food-items/item1_2.png" 
+                  class="img-fluid food-image" 
+                  alt="Chicken Leg Piece">
+              <h5>Chicken Leg Piece</h5>
+              <p>The Registration Fee</p>
+              <p class="food-price text-danger fw-bold">$20.99</p>
+          </div>
+      </div>
+
+      <!-- Chicken Pizza -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="food-card">
+              <div class="rotating-border"></div>
+              <img src="https://fresheat-react.vercel.app/assets/img/food-items/item1_2.png" 
+                  class="img-fluid food-image" 
+                  alt="Chicken Pizza">
+              <h5>Chicken Pizza</h5>
+              <p>The Registration Fee</p>
+              <p class="food-price text-danger fw-bold">$26.99</p>
+          </div>
+      </div>
+
+      <!-- Egg and Cucumber -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="food-card">
+              <div class="rotating-border"></div>
+              <img src="https://fresheat-react.vercel.app/assets/img/food-items/item1_2.png" 
+                  class="img-fluid food-image" 
+                  alt="Egg and Cucumber">
+              <h5>Egg and Cucumber</h5>
+              <p>The Registration Fee</p>
+              <p class="food-price text-danger fw-bold">$28.00</p>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<!-- BLACK GRIDS -->
+
+<div class="container py-5">
+  <div class="row g-4">
+
+<div class="col-sm-6 col-md-4">
+  <div class="p-3" style="
+      background-image: url('https://img.freepik.com/premium-photo/wooden-table-dark-room-background-concept-advertising_629685-9034.jpg?w=360');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      position: relative;
+      min-height: 230px;">
+      
+    <h6 style="color: red; font-weight: bold;">ON THIS WEEK</h6>
+    <h2 style="font-weight: bold;">SPICY FRIED CHICKEN</h2>
+    <p>Limited Time Offer</p>
+    <a href="#" class="order-btn d-inline-block px-3 py-2">ORDER NOW →</a>
+    <img src="https://fresheat-react.vercel.app/assets/img/offer/offerThumb1_1.png" alt="Food Image" style="width: 100px; position: absolute; bottom: 30px; right: 20px;">
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="p-3" style="
+      background-image: url('https://img.freepik.com/premium-photo/wooden-table-dark-room-background-concept-advertising_629685-9034.jpg?w=360');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      position: relative;
+      min-height: 230px;">
+      
+    <h6 style="color: red; font-weight: bold;">ON THIS WEEK</h6>
+    <h2 style="font-weight: bold;">CHICKEN BURGER</h2>
+    <p>Limited Time Offer</p>
+    <a href="#" class="order-btn d-inline-block px-3 py-2">ORDER NOW →</a>
+    <img src="https://fresheat-react.vercel.app/assets/img/offer/offerThumb1_2.png" alt="Food Image" style="width: 100px; position: absolute; bottom: 30px; right: 20px;">
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="p-3" style="
+      background-image: url('https://img.freepik.com/premium-photo/wooden-table-dark-room-background-concept-advertising_629685-9034.jpg?w=360');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      position: relative;
+      min-height: 230px;">
+      
+    <h6 style="color: red; font-weight: bold;">ON THIS WEEK</h6>
+    <h2 style="font-weight: bold;">SPICY CHICKEN ROLL</h2>
+    <p>Limited Time Offer</p>
+    <a href="#" class="order-btn d-inline-block px-3 py-2">ORDER NOW →</a>
+    <img src="https://fresheat-react.vercel.app/assets/img/offer/offerThumb1_3.png" alt="Food Image" style="width: 100px; position: absolute; bottom: 30px; right: 20px;">
+  </div>
+</div>
+
+
+ </div>
+</div>
+
+<!-- l plate right plate b/t text -->
+
+<div class="container-fluid py-5 text-center">
+  <div class="row align-items-center">
+      
+      <!-- Left Image & Rotating Plate -->
+      <div class="col-md-4 position-relative text-center">
+          <img src="https://fresheat-react.vercel.app/assets/img/shape/aboutShape1_1.png" class="img-fluid" alt="Left Background"
+              style="width: 100%; height: auto; position: relative;">
+          <div style="position: absolute; top: 70%; left: 100%; transform: translate(-50%, -50%);
+              width: 50%; height: auto;">
+              <img src="https://fresheat-react.vercel.app/assets/img/shape/aboutShape1_3.png" class="img-fluid" alt="Rotating Plate" 
+                  style="width: 100%; height: auto; animation: rotate 10s linear infinite;">
+          </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="col-md-4 text-center">
+          <h6 style="color: #ff6600; font-weight: bold;">
+              <i class="bi bi-cup-hot"></i> ABOUT US
+          </h6>
+          <h2 style="font-weight: bold;">Variety Of Flavours From <br> American Cuisine</h2>
+          <p style="color: #6c757d;">
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout.
+          </p>
+          <button class="btn btn-danger" style="font-weight: bold;">ORDER NOW →</button>
+      </div>
+
+      <!-- Right Image & Rotating Plate -->
+      <div class="col-md-4 position-relative text-center">
+          <img src="https://fresheat-react.vercel.app/assets/img/shape/aboutShape1_4.png" class="img-fluid" alt="Right Background"
+              style="width: 100%; height: auto; position: relative;">
+          <div style="position: absolute; top: 70%; right: 0%; transform: translate(-50%, -50%);
+              width: 50%; height: auto;">
+              <img src="https://fresheat-react.vercel.app/assets/img/shape/aboutShape1_6.png" class="img-fluid" alt="Rotating Plate" 
+                  style="width: 100%; height: auto; animation: rotate 10s linear infinite;">
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<!-- HEARTS -->
+<div class="container py-5 text-center">
+  <h6 style="color:  #ff6600; font-weight: bold;">
+      <i class="fas fa-utensils"></i> BEST FOOD
+  </h6>
+  <h2 style="font-weight: bold;">POPULAR FOOD ITEMS</h2>
+
+  <div class="row mt-4">
+      <!-- Dish 1 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="dish-card">
+              <i class="fas fa-heart heart-icon"></i>
+              <i class="fas fa-shopping-cart cart-icon"></i>
+              <img src="https://fresheat-react.vercel.app/assets/img/dishes/dishes1_1.png" alt="Chicken Fried Rice">
+              <h5 class="mt-3 fw-bold">Chicken Fried Rice</h5>
+              <p class="text-muted">The Registration Fee</p>
+              <p class="text-danger fw-bold">$100.99</p>
+          </div>
+      </div>
+
+      <!-- Dish 2 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="dish-card">
+              <i class="fas fa-heart heart-icon"></i>
+              <i class="fas fa-shopping-cart cart-icon"></i>
+              <img src="https://fresheat-react.vercel.app/assets/img/dishes/dishes1_2.png" alt="Chinese Pasta">
+              <h5 class="mt-3 fw-bold">Chinese Pasta</h5>
+              <p class="text-muted">The Registration Fee</p>
+              <p class="text-danger fw-bold">$15.99</p>
+          </div>
+      </div>
+
+      <!-- Dish 3 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="dish-card">
+              <i class="fas fa-heart heart-icon"></i>
+              <i class="fas fa-shopping-cart cart-icon"></i>
+              <img src="https://fresheat-react.vercel.app/assets/img/dishes/dishes1_3.png" alt="Chicken Pizza">
+              <h5 class="mt-3 fw-bold">Chicken Pizza</h5>
+              <p class="text-muted">The Registration Fee</p>
+              <p class="text-danger fw-bold">$26.99</p>
+          </div>
+      </div>
+
+      <!-- Dish 4 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="dish-card">
+              <i class="fas fa-heart heart-icon"></i>
+              <i class="fas fa-shopping-cart cart-icon"></i>
+              <img src="https://fresheat-react.vercel.app/assets/img/dishes/dishes1_4.png" alt="Chicken Noodles">
+              <h5 class="mt-3 fw-bold">Chicken Noodles</h5>
+              <p class="text-muted">The Registration Fee</p>
+              <p class="text-danger fw-bold">$39.00</p>
+          </div>
+      </div>
+
+  <!-- View Button -->
+  <!-- <button class="btn view-btn mt-3 ; background-color: red; color:white">
+      VIEW ALL ITEM →
+  </button> -->
+</div> 
+
+<!--PIZZA JUMPIMG-->
+      
+ <div class="pizzajump">
+  <img src="https://fresheat-react.vercel.app/assets/img/cta/ctaThumb1_1.png" alt="Pizza" class="pizza1">
+</div>
+
+  <div class="marqueebox1">
+    <marquee  style="font-weight:bolder;" id="marquee">GRILLED CHICKEN &nbsp;&nbsp;&nbsp;&nbsp;BURGER&nbsp;&nbsp;&nbsp;&nbsp;CHICKEN PIZZA&nbsp;&nbsp;&nbsp;&nbsp;FRESH PASTA</marquee>
+</div>
+
+
+
+<!-- FOOD MENU RIGHT-LEFT -->
+
+<div class="container py-5">
+  <!-- Food Menu Title -->
+  <div class="text-center">
+     <h6 style="color: #ff6600; font-weight: bold;">
+      <i class="fas fa-utensils"></i> FOOD MENU
+  </h6>
+      <!-- <p class="text-danger fw-bold">
+          <i class="bi bi-shop";></i> FOOD MENU <i class="bi bi-shop"></i>
+      </p> -->
+      <h2 class="fw-bold">Fresheat Foods Menu</h2>
+  </div>
+
+  <!-- Category Tabs -->
+  <div class="row justify-content-center my-4">
+      <div class="col-md-8">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+              <div class="text-center flex-fill border-end">
+                  <i class="bi bi-emoji-smile text-danger" style="font-size: 1.5rem;"></i>
+                  <p class="mb-0 text-dark fw-bold">Fast Food</p>
+              </div>
+              <div class="text-center flex-fill border-end">
+                  <i class="bi bi-cup text-primary" style="font-size: 1.5rem;"></i>
+                  <p class="mb-0 text-dark fw-bold">Drink & Juice</p>
+              </div>
+              <div class="text-center flex-fill border-end">
+                  <i class="bi bi-pizza text-warning" style="font-size: 1.5rem;"></i>
+                  <p class="mb-0 text-dark fw-bold">Chicken Pizza</p>
+              </div>
+              <div class="text-center flex-fill">
+                  <i class="bi bi-egg-fried text-success" style="font-size: 1.5rem;"></i>
+                  <p class="mb-0 text-dark fw-bold">Fresh Pasta</p>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="container py-4">
+  <div class="row">
+      <!-- Left Column -->
+      <div class="col-md-6">
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_1.png" alt="Chinese Pasta" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Chinese Pasta</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$15.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_2.png" alt="Chicken Fried Rice" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Chicken Fried Rice</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$25.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_3.png" alt="Chicken Pizza" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Chicken Pizza</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$115.99</span>
+          </div>
+      <!-- </div> -->
+
+       <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+          <div class="d-flex align-items-center">
+              <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_4.png" alt="Chicken Pizza" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+              <div class="ms-3">
+                  <h5 class="mb-1 fw-bold">Chicken Noodles</h5>
+                  <p class="text-muted mb-0">It's a testament to our.</p>
+              </div>
+          </div>
+          <span class="fw-bold text-dark">$154.99</span>
+      </div>
+  <!-- </div> -->
+
+  <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+      <div class="d-flex align-items-center">
+          <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_5.png" alt="Chicken Pizza" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+          <div class="ms-3">
+              <h5 class="mb-1 fw-bold">Grilled Chicken</h5>
+              <p class="text-muted mb-0">It's a testament to our.</p>
+          </div>
+      </div>
+      <span class="fw-bold text-dark">$55.99</span>
+  </div>
+</div> 
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_6.png" alt="Egg and Cucumber" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Egg And Cucumber</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$65.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_7.png" alt="Chicken White Rice" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Chicken White Rice</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$135.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_8.png" alt="Spatial Barger" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Spatial Barger</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$95.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_9.png" alt="Chicken White Rice" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Vegetables Burger</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$75.99</span>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+              <div class="d-flex align-items-center">
+                  <img src="https://fresheat-react.vercel.app/assets/img/menu/menuThumb1_10.png" alt="Chicken White Rice" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div class="ms-3">
+                      <h5 class="mb-1 fw-bold">Breif Chicken</h5>
+                      <p class="text-muted mb-0">It's a testament to our.</p>
+                  </div>
+              </div>
+              <span class="fw-bold text-dark">$95.99</span>
+          </div> 
+      </div>
+  </div>
+</div>
+
+
+<!-- chefs -->
+
+<div class="container text-center py-5  mt-5">
+    <h6 style="color: #ff6600; font-weight: bold; text-transform: uppercase;">
+        <i class="bi bi-emoji-smile"></i> OUR CHEF
+    </h6>
+    <h2 style="font-weight: bold;">Meet Our Expert Chefs</h2>
+
+    <div class="row mt-4">
+        <!-- Chef 1 -->
+        <div class=" col-sm-6 col-md-4 ">
+            <div style="background: white; border-radius: 20px; overflow: hidden; padding: 20px; position: relative; text-align: center; transition: 0.3s;">
+                <img src="https://fresheat-react.vercel.app/assets/img/chefe/chefeThumb1_1.png" alt="Chef Ralph Edwards" style="width: 100%; border-radius: 15px;">
+                <div style="padding: 20px;">
+                    <h4 style="font-weight: bold;">Ralph Edwards</h4>
+                    <p style="color: gray;">Chef Lead</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Chef 2 -->
+        <div class="col-sm-6 col-md-4">
+            <div style="background: white; border-radius: 20px; overflow: hidden; padding: 20px; position: relative; text-align: center; transition: 0.3s;">
+                <img src="https://fresheat-react.vercel.app/assets/img/chefe/chefeThumb1_2.png" alt="Chef Leslie Alexander" style="width: 100%; border-radius: 15px;">
+                <div style="padding: 20px;">
+                    <h4 style="font-weight: bold;">Leslie Alexander</h4>
+                    <p style="color: gray;">Chef Assistant</p>
+                </div>
+              
+            </div>
+        </div>
+
+        <!-- Chef 3 -->
+        <div class="col-sm-6 col-md-4">
+            <div style="background: white; border-radius: 20px; overflow: hidden; padding: 20px; position: relative; text-align: center; transition: 0.3s;">
+                <img src="https://fresheat-react.vercel.app/assets/img/chefe/chefeThumb1_3.png" alt="Chef Ronald Richards" style="width: 100%; border-radius: 15px;">
+                <div style="padding: 20px;">
+                    <h4 style="font-weight: bold;">Ronald Richards</h4>
+                    <p style="color: gray;">Chef Assistant</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- latest news images carousal -->
+
+<div class="container py-5">
+    <h6 class="text-uppercase text-center" style="color: #ff6600; font-weight: bold;">
+        <i class="fa fa-utensils"></i> Latest News
+    </h6>
+    <h2 class="text-center" style="font-weight: bold;">Our Latest Foods News</h2>
+
+    <!-- Bootstrap Carousel -->
+    <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm" 
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://fresheat-react.vercel.app/assets/img/blog/blogThumb1_3.jpg" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Quick Cravings Unraveling Fast Food Delights</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm" 
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://fresheat-react.vercel.app/assets/img/blog/blogThumb1_1.jpg" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Fast Food Frenzy: A Taste Of Convenience</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm" 
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://fresheat-react.vercel.app/assets/img/blog/blogThumb1_2.jpg" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Benefits Of Health And Safety Measures</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row">
+                    <!-- Card 4 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm"
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/00/dd/00/domino-s-pizza.jpg?w=600&h=-1&s=1" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Delicious Pizza: A Cheesy Indulgence</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm"
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://parade.com/.image/t_share/MjAwMjQwOTU4NDg1MzA4NTI0/what-happens-if-you-eat-a-burger-every-day.jpg" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Tasty Burgers: A Fast Food Classic</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm"
+                             style="transition: 0.3s; border-radius: 10px; overflow: hidden;"
+                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0px 10px 20px rgba(0,0,0,0.2)';"
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';">
+                            <img src="https://howdaily.com/wp-content/uploads/2017/05/temptation-sushi-roll-640x427.jpg?x19738" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="mt-3" style="font-weight: bold;">Exotic Sushi: A Taste of Japan</h5>
+                                <a href="#" class="text-decoration-none" style="color: #ff6600; font-weight: bold;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--marquee pics-->
+<div class="marqueebox">
+  <marquee id="pics">
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_5.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_6.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_1.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_3.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_5.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_6.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_1.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_3.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_5.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_6.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_1.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_3.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_5.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_6.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_1.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://fresheat-react.vercel.app/assets/img/logo/clientLogo1_3.png"alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </marquee>
+</div>
+
+
+  <!-- Footer -->
+
+  <div class="footer-wrapper text-white py-4" style="background-color: black;">
+  <!-- Contact Banner -->
+  <div class="contact-banner row text-white text-center mx-auto">
+    <div class="col-md-4 mb-3 mb-md-0">
+      <i class="fas fa-map-marker-alt"></i>
+      <div class="text-start">
+        <h6>Address</h6>
+        <p>4648 Rocky Road Philadelphia</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3 mb-md-0">
+      <i class="fas fa-envelope"></i>
+      <div class="text-start">
+        <h6>Send Email</h6>
+        <p>info@exmple.com</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <i class="fas fa-phone"></i>
+      <div class="text-start">
+        <h6>Call Emergency</h6>
+        <p>+88 0123 654 99</p>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div class="footer container-fluid">
+    <div class="row text-white">
+      <!-- Logo and Description -->
+      <div class="col-md-3 mb-4">
+        <div class="d-flex align-items-center mb-2">
+          <span class="brand-line"></span>
+          <span class="brand-logo">FRESHEAT</span>
+          <i class="fas fa-utensils ms-2 fs-4"></i>
+        </div>
+        <small class="text-uppercase fw-bold d-block mb-3">RESPONDENT</small>
+        <p>Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+        <div class="social-icons mt-3">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h5>Quick Links</h5>
+        <hr class="mb-2">
+        <ul>
+          <li><i class="fas fa-angles-right"></i> About Us</li>
+          <li><i class="fas fa-angles-right"></i> Our Gallery</li>
+          <li><i class="fas fa-angles-right"></i> Our Blogs</li>
+          <li><i class="fas fa-angles-right"></i> FAQ’S</li>
+          <li><i class="fas fa-angles-right"></i> Contact Us</li>
+        </ul>
+      </div>
+
+      <!-- Our Menu -->
+      <div class="col-md-3 mb-4">
+        <h5>Our Menu</h5>
+        <hr class="mb-2">
+        <ul>
+          <li><i class="fas fa-angles-right"></i> Burger King</li>
+          <li><i class="fas fa-angles-right"></i> Pizza king</li>
+          <li><i class="fas fa-angles-right"></i> Fresh Food</li>
+          <li><i class="fas fa-angles-right"></i> Vegetable</li>
+          <li><i class="fas fa-angles-right"></i> Desserts</li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-3 mb-4">
+        <h5>Contact Us</h5>
+        <hr class="mb-2">
+        <p>Monday – Friday: <span class="text-warning">8am – 4pm</span></p>
+        <p>Saturday: <span class="text-warning">8am – 12am</span></p>
+        <div class="email-box my-3">
+          <input type="email" placeholder="Your email address">
+          <button><i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="privacyCheck">
+          <label class="form-check-label" for="privacyCheck">
+            I agree to the <a href="#">Privacy Policy.</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+    
+</body>
+</html>
